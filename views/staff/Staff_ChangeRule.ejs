@@ -1,0 +1,51 @@
+<%- include("partials/header.ejs") %>
+<body>
+<div class="container">
+    <div class="header">
+        <div class="circle">
+          <div class="text">W</div>
+        </div>
+        <div>
+          <form action="/staffinfo" method="GET">
+            <input class="headertext" type="submit" name="thaydoi" value="THÔNG TIN">
+          </form>
+        </div>
+        <div>
+          <form action="/stafflobby" method="GET">
+            <input class="headertext" type="submit" name="thaydoi" value="TIẾP NHẬN SẢNH">
+          </form>
+        </div>
+        <div>
+          <form action="/stafflookup" method="GET">
+            <input class="headertext" type="submit" name="thaydoi" value="TRA CỨU">
+          </form>
+        </div>
+        <div>
+          <form action="/stafflistbill" method="GET">
+            <input id="short1" class="headertext" type="submit" name="thaydoi" value="LẬP HÓA ĐƠN THANH TOÁN">
+          </form>
+        </div>
+        <div>
+          <form action="/staffchangerule" method="POST">
+            <input id="short2" class="headertext" type="submit" name="thaydoi" value="THAY ĐỔI QUI ĐỊNH">
+          </form>
+        </div>
+        <div>
+          <form action="/staffreport" method="POST">
+            <input class="headertext" type="submit" name="thaydoi" value="LẬP BÁO CÁO">
+          </form>
+        </div>
+        <form action="/login" method="POST">
+          <input class="headertext" type="image" name="thaydoi" src="staff/signout.svg" alt="">
+        </form>
+    </div>
+  <div class="rest">
+      <h1>THAY DOI QUY DINH</h1>
+  </div>
+</div>
+
+
+
+
+
+</body></html>
